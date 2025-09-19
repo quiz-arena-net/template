@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+package quiz_arena.template.v1;
+
+service TemplateService {}
