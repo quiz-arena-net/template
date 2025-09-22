@@ -43,11 +43,11 @@ test: generate
 build: generate
 	@echo "Building Go binaries..."
 	mkdir -p bin
-	go build -o bin/$(SERVICE_NAME) ./cmd/server
+	go build -o bin/$(SERVICE_NAME) ./cmd/$(SERVICE_NAME)
 
 run:
 	@echo "Starting $(SERVICE_NAME) service..."
-	go run ./cmd/server
+	go run ./cmd/$(SERVICE_NAME)
 
 clean:
 	@echo "Cleaning generated binaries..."
