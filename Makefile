@@ -34,7 +34,7 @@ format:
 
 generate:
 	@echo "Generating protobuf/connect code with buf..."
-	buf generate
+	buf generate --clean
 
 test: generate
 	@echo "Running Go tests..."
@@ -50,8 +50,6 @@ run:
 	go run ./cmd/server
 
 clean:
-	@echo "Cleaning generated code..."
-	rm -rf internal/gen
 	@echo "Cleaning generated binaries..."
 	rm -rf bin
 
