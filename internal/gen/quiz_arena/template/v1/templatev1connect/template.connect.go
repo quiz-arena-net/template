@@ -6,8 +6,8 @@ package templatev1connect
 
 import (
 	connect "connectrpc.com/connect"
+	_ "github.com/quiz-arena-net/template/internal/gen/quiz_arena/template/v1"
 	http "net/http"
-	_ "quiz-arena.net/template/internal/gen/quiz_arena/template/v1"
 )
 
 // This is a compile-time assertion to ensure that this generated file and the connect package are

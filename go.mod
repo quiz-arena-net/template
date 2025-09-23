@@ -1,4 +1,4 @@
-module quiz-arena.net/template
+module github.com/quiz-arena-net/template
 
 go 1.25
 
