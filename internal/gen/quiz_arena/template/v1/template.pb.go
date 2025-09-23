@@ -25,8 +25,8 @@ var File_quiz_arena_template_v1_template_proto protoreflect.FileDescriptor
 const file_quiz_arena_template_v1_template_proto_rawDesc = "" +
 	"\n" +
 	"%quiz_arena/template/v1/template.proto\x12\x16quiz_arena.template.v12\x11\n" +
-	"\x0fTemplateServiceB\xe9\x01\n" +
-	"\x1acom.quiz_arena.template.v1B\rTemplateProtoP\x01ZFquiz-arena.net/template/internal/gen/quiz_arena/template/v1;templatev1\xa2\x02\x03QTX\xaa\x02\x15QuizArena.Template.V1\xca\x02\x15QuizArena\\Template\\V1\xe2\x02!QuizArena\\Template\\V1\\GPBMetadata\xea\x02\x17QuizArena::Template::V1b\x06proto3"
+	"\x0fTemplateServiceB\xf4\x01\n" +
+	"\x1acom.quiz_arena.template.v1B\rTemplateProtoP\x01ZQgithub.com/quiz-arena-net/template/internal/gen/quiz_arena/template/v1;templatev1\xa2\x02\x03QTX\xaa\x02\x15QuizArena.Template.V1\xca\x02\x15QuizArena\\Template\\V1\xe2\x02!QuizArena\\Template\\V1\\GPBMetadata\xea\x02\x17QuizArena::Template::V1b\x06proto3"
 
 var file_quiz_arena_template_v1_template_proto_goTypes = []any{}
 var file_quiz_arena_template_v1_template_proto_depIdxs = []int32{
