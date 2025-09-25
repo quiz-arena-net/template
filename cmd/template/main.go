@@ -1,7 +1,9 @@
 package main
 
 import (
+	"log/slog"
 	"net/http"
+	"os"
 
 	"connectrpc.com/grpchealth"
 	"connectrpc.com/grpcreflect"
@@ -31,8 +33,12 @@ func main() {
 		),
 	))
 
-	http.ListenAndServe(
+	err := http.ListenAndServe(
 		":50051",
 		h2c.NewHandler(mux, &http2.Server{}),
 	)
+	if err != nil {
+		slog.Error("listen and serve failed", "err", err)
+		os.Exit(1)
+	}
 }
