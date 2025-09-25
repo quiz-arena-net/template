@@ -33,8 +33,11 @@ func main() {
 		),
 	))
 
+	addr := ":50051"
+
+	slog.Info("starting server", "addr", addr)
 	err := http.ListenAndServe(
-		":50051",
+		addr,
 		h2c.NewHandler(mux, &http2.Server{}),
 	)
 	if err != nil {
