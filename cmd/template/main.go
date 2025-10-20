@@ -7,7 +7,7 @@ import (
 
 	"connectrpc.com/grpchealth"
 	"connectrpc.com/grpcreflect"
-	"github.com/quiz-arena-net/template/internal/gen/quiz_arena/template/v1/templatev1connect"
+	"github.com/quiz-arena-net/template/gen/quiz_arena/template/v1/templatev1connect"
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/h2c"
 )

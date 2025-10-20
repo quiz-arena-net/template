@@ -3,11 +3,11 @@ managed:
   enabled: true
   override:
     - file_option: go_package_prefix
-      value: github.com/quiz-arena-net/template/internal/gen
+      value: github.com/quiz-arena-net/template/gen
 plugins:
   - local: protoc-gen-go
-    out: internal/gen
+    out: gen
     opt: paths=source_relative
   - local: protoc-gen-connect-go
-    out: internal/gen
+    out: gen
     opt: paths=source_relative

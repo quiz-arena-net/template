@@ -6,7 +6,7 @@ package templatev1connect
 
 import (
 	connect "connectrpc.com/connect"
-	_ "github.com/quiz-arena-net/template/internal/gen/quiz_arena/template/v1"
+	_ "github.com/quiz-arena-net/template/gen/quiz_arena/template/v1"
 	http "net/http"
 )
 
